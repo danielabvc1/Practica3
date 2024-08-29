@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hardware</title>
+    <style>
+        body {
+            background-image: url('fondo.jpg');
+            background-size: cover;
+            color: white;
+            font-family: 'Century Gothic', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .text-content {
+            flex: 1;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .image-gallery {
+            width: 30%;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .image-gallery img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            margin-bottom: 20px;
+            border-collapse: collapse;
+        }
+        td {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tipos de Hardware</h1>
+
+    <div class="container">
+        <div class="text-content">
+            <table style="color: white;">
+                <tr>
+                    <td>Unidad Central de Procesamiento</td>
+                    <td>
+                        <ul>
+                            <li>CPU (Central Processing Unit)</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Memoria</td>
+                    <td>
+                        <ol>
+                            <li>RAM (Random Access Memory)</li>
+                            <li>ROM (Read-Only Memory)</li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Dispositivos de Almacenamiento</td>
+                    <td>
+                        <dl>
+                            <dt>HDD</dt>
+                            <dd>Disco Duro (Hard Disk Drive)</dd>
+                            <dt>SSD</dt>
+                            <dd>Unidad de Estado Sólido (Solid State Drive)</dd>
+                        </dl>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Dispositivos de Entrada/Salida</td>
+                    <td>
+                        <dl>
+                            <dt>Teclado</dt>
+                            <dd>Dispositivo de entrada</dd>
+                            <dt>Monitor</dt>
+                            <dd>Dispositivo de salida</dd>
+                        </dl>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="image-gallery">
+            <img src="cpu.jpg" alt="CPU" />
+            <img src="memoria.jpg" alt="Memoria" />
+            <img src="almacenamiento.jpg" alt="Almacenamiento" />
+        </div>
+    </div>
+</body>
+</html>
